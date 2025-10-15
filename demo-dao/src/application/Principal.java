@@ -12,6 +12,7 @@ public class Principal {
        
        SellerDao sld = DaoFactory.creatSellerDao();
 
+       System.out.println("=== Test 1: findById ===");
        Seller sl = sld.findById(3);
 
        System.out.println(sl);
